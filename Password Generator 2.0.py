@@ -17,7 +17,7 @@ for char in range(0, nr_symbols): #This generates the number of symbols in the l
     password_list.append(random.choice(symbols)) #This generates random symbols
 
 for char in range(0, nr_numbers): #This generates the number of numbers in the list
-    password_list.append(random.choice(numbers)) #This generates randome numbers
+    password_list.append(random.choice(numbers)) #This generates random numbers
 
 random.shuffle(password_list)
 
